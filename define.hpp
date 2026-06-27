@@ -1,5 +1,5 @@
-#ifndef DEFINE_H
-#define DEFINE_H
+#ifndef DEFINE_HPP
+#define DEFINE_HPP
 
 #include <iostream>
 #include <vector>
