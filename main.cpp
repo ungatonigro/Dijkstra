@@ -13,7 +13,9 @@ int main() {
         file >> from >> to >> weight;
         graph.addEdge(from, to, weight);
     }
-    graph.dijkstra(0);
     graph.printGraph();
+    graph.dijkstra(0);
+    // graph.printRoute(0); // start from 0
+
     return 0;
 }
